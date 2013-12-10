@@ -1,5 +1,5 @@
-web-content
-===========
+EXPath web content
+==================
 
 The web content for the EXPath website, at
 [http://expath.org/](http://expath.org/).
