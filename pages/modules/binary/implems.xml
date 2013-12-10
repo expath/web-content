@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="binary" root="../..">
+   <title>EXPath - Binary Implementations</title>
+   <section>
+      <title>Binary Implementations</title>
+      <image src="../../images/binary.png" alt="Ones and zeroes"/>
+      <para><link href="http://saxonica.com/">Saxon</link> is going to
+         implement the module out-of-the-box.</para>
+   </section>
+</webpage>

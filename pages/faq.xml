@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="main">
+   <title>EXPath - FAQ</title>
+   <section>
+      <title>Frequently Asked Questions</title>
+      <image src="images/machine.jpg" alt="Machine"/>
+      <para>This page gathers informations about the project in a whole, and answers most frequently
+         asked questions. It will evolve over time, so be sure to check it from time to time.</para>
+      <list>
+         <item>
+            <link href="#who">How does decide what to define in EXPath?</link>
+         </item>
+         <item>
+            <link href="#licence">What's the licencing?</link>
+         </item>
+         <item>
+            <link href="#version">Versioning policy</link>
+         </item>
+         <item>
+            <link href="#scope">What's the exact scope of EXPath?</link>
+         </item>
+         <item>
+            <link href="#xpath21">Is not there a risk to be redundant with XPath 2.1?</link>
+         </item>
+      </list>
+      <para/>
+      <para>The <link href="resources">resources</link> page contains also useful links and
+         documentation, as well as the <link href="wiki/">EXPath wiki</link>.</para>
+   </section>
+   <divider/>
+   <primary id="licence">
+      <title>What's the licencing?</title>
+      <para>The website content is under the <link
+            href="http://creativecommons.org/licenses/by/2.5/">Creative Commons 2.5</link>. The
+         specifications are under the <link href="http://creativecommons.org/licenses/by-nd/3.0/"
+            >Creative Commons 3.0 No Derivative</link>.</para>
+      <para>Each implementation has to provide clear licencing information. They are encouraged to
+         use the <link href="http://www.mozilla.org/MPL/">Mozilla Public License</link>, but other
+         open source licences could be accepted if the context requires to. Please check the
+         delivery notes of the implementations you want to use.</para>
+   </primary>
+   <primary id="version">
+      <title>Versioning policy</title>
+      <para>Each module specification is developed collaboratively by the community, under the lead
+         of one (or a few) editor. Working drafts are publicized to get feedback from the community
+         and to allow implementation of the current state of affairs. But only the accepted modules
+         should be used for production works; their versioning scheme is a major and a minor
+         numbers, dot-separated (1.0, 1.1, etc.)</para>
+      <para>The namespace URIs used by the specifications are of the form
+            <code>http://expath.org/ns/[module-name]</code> and should not include any versioning
+         information (unless it was properly justified.) The same namespace URI should be used for
+         the whole module; in particular, error codes should not be defined in anther namespace than
+         functions or elements used as return values or parameters.</para>
+   </primary>
+   <primary id="scope">
+      <title>What's the exact scope of EXPath?</title>
+      <para>The goal of this project is to provide the community with organized sets of extensions
+         to the XPath 2.0 language. That can be done in plenty of different ways, but here we
+         clearly favor defining extension through functions, and forbid grammar-level changes. If
+         another library does exist yet that address one problem, we should maybe link to it and not
+         try to reinvent the wheel.</para>
+      <para>But I don't want to restrict too much the freedom of the module maintainers nor their
+         creativity, and I trust the good sense of the community. If people spend time to define and
+         implement a module, even if they not respect the above rules, and if there is some interest
+         in the community regarding this work, then why not?</para>
+      <para>XSLT and XQuery should not have any particular position in this project, but because
+         their tight relationships with each other, the border is not always obvious.</para>
+   </primary>
+   <primary id="xpath21">
+      <title>Is not there a risk to be redundant with XPath 2.1?</title>
+      <para>Yes, there is a risk. Actually, there is a risk to define something that will be in
+         XPath 2.1, and there is the risk to rely on something that will change in the different
+         drafts. But the risk can be reduced by asking the Working Group if something similar is on
+         its way to the XPath 2.1 Working Draft, and even if it is the case, that could be
+         interesting to have a parallel work to give feedback to the WG.</para>
+      <para>So the risk does exist, and we have to keep this future draft in mind. But this is
+         absolutely not a reason to not work on EXPath for now. This is the responsibility of each
+         editor to evaluate the situation and see if he wants to take the risk or not, and if he is
+         ready to follow closely the evolution of XPath 2.1.</para>
+   </primary>
+   <secondary id="who" box="true">
+      <title>How does decide what to define in EXPath?</title>
+      <para>You do!</para>
+      <para>EXPath is a collaborative, community-driven project. If you need a module which does not
+         exist in EXPath, but you think would be worth having as an EXPath module, you can propose
+         it on the <link href="lists">mailing list</link>.</para>
+      <para>But do not expect to find someone telling you that this is the best idea he never heard,
+         and who is ready to invest all his spare time in defining and implementing what you want.
+         The best option is to first discuss it on the list, to be sure no one else is working on a
+         similar feature, or that such a feature does not exist somewhere else. And maybe get some
+         advice of people who have thought about the same ideas. Then write a formal specification:
+         the function prototypes, their behavior, the context, etc. This will be concrete material
+         to discuss and to propose to be reviewed by pairs.</para>
+      <para>Discussing a module that no one is ready to actually spend time on it is just loosing
+         time. So launch your preferred editor and start writing down your ideas!</para>
+   </secondary>
+</webpage>

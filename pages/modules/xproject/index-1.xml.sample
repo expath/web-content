@@ -1,0 +1,10 @@
+<project xmlns="http://expath.org/ns/project"
+         name="http://example.org/my-lib"
+         abbrev="my-lib"
+         version="1.3.0">
+
+   <title>Example library</title>
+
+   <home>http://example.org/tools/my-lib/index.html</home>
+
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="binary" root="../..">
+   <title>EXPath - Binary Samples</title>
+   <section>
+      <title>Binary Samples</title>
+      <image src="../../images/binary.png" alt="Ones and zeroes"/>
+      <para>Page under construction...</para>
+   </section>
+</webpage>

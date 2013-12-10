@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="file" root="../..">
+   <title>EXPath - File Implementations</title>
+   <section>
+      <title>File Implementations</title>
+      <image src="../../images/file.jpg" alt="Files"/>
+      <para><link href="http://basex.org/">BaseX</link> implements the module
+         out-of-the-box.</para>
+   </section>
+</webpage>

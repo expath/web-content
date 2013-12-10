@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--?xml-stylesheet type="text/xsl" href="webpage.xsl"?-->
+
+<webpage menu="hc" root="../..">
+   <title>EXPath - HTTP Client Implementations</title>
+   <section>
+      <title>HTTP Client Implementations</title>
+      <image src="../../images/web2.jpg" alt="Spider web"/>
+      <para>For now, there are five implementations: for <link href="http://www.saxonica.com/"
+            >Saxon</link> (XSLT 2.0 and XQuery,) for <link href="http://www.zorba-xquery.com/"
+            >Zorba</link>, for <link href="http://www.exist-db.org/">eXist</link>, for <link
+            href="http://www.marklogic.com/">MarkLogic Server</link>, for <link
+            href="http://basex.org/">BaseX</link>, and for the .NET framework.</para>
+      <para>The implementation
+         for MarkLogic is a partial implementations though, as it relies on the similar,
+         product-dependent extension of this product, which does not permit to provide the whole
+         functionality. Anyone is welcome to contribute of course, see the
+            <link href="../../lists">mailing list</link>. Some work are undergoing to provide
+         better support of the EXPath HTTP Client on this processor.</para>
+      <para>The implementations for Zorba, eXist and BaseX are built-in implementations.
+         All other implementations are
+         hosted in the <link href="http://code.google.com/p/expath-http-client/"
+            >expath-http-client</link> project. The implementation for Saxon has been released as an
+         XAR package. The implementation for eXist is part of the official eXist release (you can
+         use it out of the box). The implementation for MarkLogic has not been released yet, as it
+         is only partial, but you can find it in the <link
+            href="http://code.google.com/p/expath-http-client/source/browse/trunk/marklogic/http-client.xq"
+            >subversion repository</link>.</para>
+      <para><link href="http://myxsl.net">myxsl.net</link>, a framework to build website with XML
+         technologies, provides with an implementation of the HTTP Client for .NET.  Several
+         XSLT/XQuery processors are supported, including .NET and Saxon.  See this
+            <link href="http://myxsl.net/expath/http-client/">page</link>.</para>
+   </section>
+</webpage>

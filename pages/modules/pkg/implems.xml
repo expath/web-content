@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="pkg" root="../..">
+   <title>EXPath - Package Managers</title>
+   <section>
+      <title>Package Managers</title>
+      <image src="../../images/packaging.jpg" alt="Taps and pipes"/>
+      <para>The <link href="http://exist-db.org/">eXist</link>, <link
+            href="http://www.xmlmind.com/qizx/">Qizx</link> and <link
+            href="http://basex.org/">BaseX</link> XML databases all implements built-in the
+         Packaging System.  There are external implementations for the <link
+            href="http://www.saxonica.com/">Saxon</link> XSLT and XQuery processor and the
+         <link href="http://xmlcalabash.com/">Calabash</link> XProc processor (see the <link
+            href="http://code.google.com/p/expath-pkg/">project home</link> for details and
+         downloads for those external implementations).</para>
+      <para>All those implementations rely on the same underlying repository structure, and
+         actually all use the same repository manager written in Java as part of the above mentioned
+         <link href="http://code.google.com/p/expath-pkg/">expath-pkg project</link>.  They also all
+         support packaging extension functions written in Java.</para>
+      <para>The <link href="http://code.google.com/p/expath-pkg/">expath-pkg project</link> also
+         provides a repository manager, called <code>xrepo</code>, to help managing packages in
+         a repository (installing, removing, listing, etc.)  The same implementations are also used
+         in <link href="http://code.google.com/p/servlex/">Servlex</link>, the framework used to
+         run the EXPath website, based exclusively on XML technologies.</para>
+   </section>
+   <divider/>
+   <primary id="ml-console">
+      <title>Console for MarkLogic</title>
+      <image src="../../images/ml-console.png" alt="EXPath Console for MarkLogic"/>
+      <para>A first version of an EXPath Console for MarkLogic is going to be released soon.  You
+         can already test it.  Just download the source
+         <link href="http://code.google.com/p/expath-pkg/downloads/list">from Google Code</link>
+         (look for the latest "expath-ml-console.*.zip").  Unzip it somewhere on your filesystem, create a
+         new HTTP server in MarkLogic, point the modules of that HTTP server to the filesystem,
+         where you saved the sources, go to <code>http://localhost:xxx/home.xq</code> and follow the
+         instructions. You might want to look at the Help page as well, from the menu on the
+         page.</para>
+   </primary>
+</webpage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="binary" root="../..">
+   <title>EXPath - Binary</title>
+   <section>
+      <title>Binary</title>
+      <image src="../../images/binary.png" alt="Ones and zeroes"/>
+      <para>The Binary module is designed to support the processing, within XPath/XQuery/XSLT, of
+         fundamentally binary data, found in situations such as inspecting images (for size and
+         metadata), processing files which contain different text sections in different encodings
+         and more esoteric subjects such as manipulating large cryptographic keys, or generating PDF
+         files.</para>
+      <para>It comprises a small set of extension functions for XPath/XQuery expressions that enable
+         binary data (i.e. potentially large sequences of bytes) to be created, reduced to byte
+         sequences, manipulated as bit-strings, joined into larger sequences, split, extended and
+         searched. Functions are provided to convert to and from numeric forms, and text strings via
+         encoding protocols.</para>
+      <para>Test-suites are available for developers to verify implementations. Some samples using
+         the module are provided in the specification - other more sizeable ones should hopefully
+         appear in the Samples area of this section of the website.</para>
+   </section>
+</webpage>

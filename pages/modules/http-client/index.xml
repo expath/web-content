@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="hc" root="../..">
+   <title>EXPath - HTTP Client</title>
+   <section>
+      <title>HTTP Client</title>
+      <image src="../../images/web1.jpg" alt="Machine"/>
+      <para>This module defines a set of functions to send HTTP &amp; HTTPS requests and handle
+         responses. This is a quite low-level functionality, allowing one to deal with most aspects
+         of the HTTP protocol (redirections, headers, body contents, multipart...), while
+         integrating smoothly within the <link href="http://www.w3.org/TR/xpath-datamodel/">XPath
+            Data Model</link>.</para>
+      <para>This module was written initially for EXSLT 2.0, but it is really an XPath extension,
+         that makes sense to be used in XQuery as well, for instance. It is being moved to EXPath,
+         but the <link href="http://www.fgeorges.org/exslt2/">legacy page</link> is still available.
+         As this is the first EXPath module so far, any thought about how it should be released and
+         about packaging would be much appreciated on the <link href="../../lists">mailing
+            list</link>.</para>
+   </section>
+   <divider/>
+   <section>
+      <title>Introduction</title>
+      <para>Besides the <link href="../../spec/http-client">specification</link>, here is an
+         informal introduction to this module. See also the <link href="samples">samples page</link>
+         for more elaborate samples. This module defines a single function,
+            <code>http:send-request()</code> (with several arities for the sake of ease of use.) The
+         function takes a description of the request in parameter, and returns a representation of
+         the response.</para>
+      <para>The request is represented by an <code>http:request</code> element, giving the URI, the
+         HTTP method, the headers and the body content (for POST and PUT methods.) The response is
+         returned as a sequence of one or more items. The first one is an <code>http:response</code>
+         element with quite the same structure as an <code>http:request</code>, but without the
+         content itself. The content is returned as the second item (or several items in case of a
+         multipart response) as a string, a document node or a binary item, depending on the
+            <code>Content-Type</code> returned by the server. Here is a simple example of call in
+         XQuery, which sends a text content by POST:</para>
+      <para>
+         <sample href="index-1.xq.sample" kind="xquery"/>
+      </para>
+      <para>The response element can look like the following:</para>
+      <para>
+         <sample href="index-2.xml.sample" kind="xml"/>
+      </para>
+      <para>It is important to understand that the result of the function, in the example of the
+         above call, is a sequence of 2 items: the <code>http:response</code> element, and a
+         document node representing the HTML document. Here is an example of query that illustrate
+         that fact; it checks the status of the response within the <code>http:response</code>
+         element, then use the title element in the HTML document:</para>
+      <para>
+         <sample href="index-3.xsl.sample" kind="xml"/>
+      </para>
+      <para>You can find other examples on the <link href="samples">samples page</link>.</para>
+   </section>
+   <!--secondary>
+      <title>Links</title>
+      <para>The specification for this module can be found <link href="../http-client"
+         >here</link>.</para>
+      <para>Implementations of this module for various XSLT and XQuery processors can be found <link
+            href="implems">here</link>.</para>
+      <para>Samples of use of this module in both XSLT and XQuery can be found <link
+            href="samples">here</link>.</para>
+   </secondary-->
+</webpage>

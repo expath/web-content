@@ -1,0 +1,9 @@
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+                xmlns:pkg="http://expath.org/ns/pkg"
+                version="2.0">
+
+   <pkg:import-uri>http://example.org/ns/my-lib/the-lib.xsl</pkg:import-uri>
+
+   ...
+
+</xsl:stylesheet>

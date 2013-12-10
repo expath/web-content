@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="main">
+   <title>EXPath - News</title>
+   <section>
+      <title>News</title>
+      <para>There is an <link href="atom.xml">Atom feed</link>.</para>
+   </section>
+   <primary>
+      <title>HTTP Client update</title>
+      <details>January 9, 2010</details>
+      <para>An update of the <link href="spec/http-client">HTTP Client specification</link>
+         has been published. The namespaces have been adapted to the standard, some errors have been
+         added, the serialization mechanism is based on the XSLT and XQuery serialization spec now,
+         and a "revision markup" version, highlighting differences, has been created.</para>
+   </primary>
+   <primary>
+      <title>Packaging update</title>
+      <details>January 7, 2010</details>
+      <para>An update of the <link href="spec/pkg">packaging specification</link> has been
+         published. The section "Concepts" has been rewritten, making clear distinction between
+         concepts and the package descriptor format. A complete example has been added too. And a
+         "revision markup" version, highlighting differences, has been created.</para>
+   </primary>
+   <primary>
+      <title>ZIP Facility</title>
+      <details>December 15, 2009</details>
+      <para>First release of the <link href="modules/zip/">ZIP facility</link> module. The
+         specification has not been written yet, but a prototype implementation exists for Saxon,
+         and some infos about the interface are available here and there. See the <link
+            href="modules/zip/">module page</link> for details.</para>
+   </primary>
+   <primary>
+      <title>Packaging update</title>
+      <details>November 18, 2009</details>
+      <para>An update of the <link href="spec/pkg">packaging specification</link> has been
+         published, as well as a new implementation for Calabash and an updated implementation for
+         Saxon.</para>
+   </primary>
+   <primary>
+      <title>Packaging starts here</title>
+      <details>September 12, 2009</details>
+      <para>The prototype for eXist of the <link href="modules/pkg/">Packaging System</link> has
+         just been released.</para>
+   </primary>
+   <primary>
+      <title>Hey!</title>
+      <details>April 15, 2009</details>
+      <para>The website has just been announced on various mailing lists. I hope people will
+         subscribe to the <link href="lists">mailing list</link> and will provide valuable
+         input and feedback.</para>
+   </primary>
+   <primary>
+      <title>A new <link href="http://youtube.com/watch?v=arCITMfxvEc">birth</link></title>
+      <details>March 29, 2009</details>
+      <para>The website has just been launched. Hello, world!</para>
+   </primary>
+</webpage>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="oxygen" root="..">
+   <title>EXPath - oXygen</title>
+   <section>
+      <title>oXygen</title>
+      <image src="../images/oxygen.png" alt="oXygen"/>
+      <para>The EXPath <link href="http://oxygenxml.com/">oXygen</link> addon repository is <link
+         href="addon-site.xml">here</link>. It contains all the EXPath-related plugins for oXygen.
+         In order to use it:</para>
+      <list>
+         <item>go to "<emph>Help > Manage addons</emph>" in oXygen</item>
+         <item>click on the link at the top to the addon preference page</item>
+         <item>add a new site using <link href="addon-site.xml">this url</link></item>
+         <item>back into the addon manager, install the plugins you want</item>
+      </list>
+      <para>You might see an old warning message before installation that the plugin is not signed.
+         You can ignore it (unless you want to only install signed plugins, of course). Installing
+         or uninstalling plugins requires restarting oXygen to take effect.</para>
+   </section>
+</webpage>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+   <title>EXPath news</title>
+   <link href="http://expath.org/atom.xml" rel="self"/>
+   <link href="http://expath.org/"/>
+   <link href="http://expath.org/news" rel="alternate" type="text/html"/>
+   <id>urn:uuid:a626d3d0-d49d-11de-8a39-0800200c9a66</id>
+   <updated>2009-11-18T23:23:00+01:00</updated>
+   <author>
+      <name>Florent Georges</name>
+      <email>fgeorges@expath.org</email>
+   </author>
+
+   <entry>
+      <title>HTTP Client update</title>
+      <link href="http://expath.org/spec/http-client"/>
+      <link href="http://expath.org/modules/http-client/"/>
+      <id>urn:uuid:3158c740-fcdc-11de-8a39-0800200c9a66</id>
+      <updated>2010-01-09T00:00:00+01:00</updated>
+      <summary>An update of the HTTP Client specification has been published. The namespaces have
+         been adapted to the standard, some errors have been added, the serialization mechanism is
+         based on the XSLT and XQuery serialization spec now, and a "revision markup" version,
+         highlighting differences, has been created.</summary>
+   </entry>
+
+   <entry>
+      <title>Packaging update</title>
+      <link href="http://expath.org/spec/pkg"/>
+      <link href="http://expath.org/modules/pkg/"/>
+      <id>urn:uuid:22b2ee50-fcdc-11de-8a39-0800200c9a66</id>
+      <updated>2010-01-07T00:00:00+01:00</updated>
+      <summary>An update of the packaging specification has been published. The section "Concepts"
+         has been rewritten, making clear distinction between concepts and the package descriptor
+         format. A complete example has been added too. And a "revision markup" version,
+         highlighting differences, has been created.</summary>
+   </entry>
+
+   <entry>
+      <title>ZIP Facility</title>
+      <link href="http://expath.org/modules/zip/"/>
+      <id>urn:uuid:e2f56c80-e9de-11de-8a39-0800200c9a66</id>
+      <updated>2009-12-15T00:00:00+01:00</updated>
+      <summary>First release of the ZIP facility module. The specification has not been written yet,
+         but a prototype implementation exists for Saxon, and some infos about the interface are
+         available here and there. See the module page for details.</summary>
+   </entry>
+
+   <entry>
+      <title>Packaging update</title>
+      <link href="http://expath.org/spec/pkg"/>
+      <link href="http://expath.org/modules/pkg/implems"/>
+      <id>urn:uuid:cc7335b0-d49d-11de-8a39-0800200c9a66</id>
+      <updated>2009-11-18T00:00:00+01:00</updated>
+      <summary>An update of the packaging specification has been published, as well as a new
+         implementation for Calabash and an updated implementation for Saxon.</summary>
+   </entry>
+
+   <entry>
+      <title>Packaging starts here</title>
+      <link href="http://expath.org/modules/pkg/"/>
+      <id>urn:uuid:98ec86e0-d49f-11de-8a39-0800200c9a66</id>
+      <updated>2009-09-12T00:00:00+01:00</updated>
+      <summary>The prototype for eXist of the Packaging System has just been released.</summary>
+   </entry>
+
+   <entry>
+      <title>Hey!</title>
+      <link href="http://expath.org/"/>
+      <link href="http://expath.org/lists"/>
+      <id>urn:uuid:9ea9cbb0-d49f-11de-8a39-0800200c9a66</id>
+      <updated>2009-04-15T00:00:00+01:00</updated>
+      <summary>The website has just been announced on various mailing lists. I hope people will
+         subscribe to the mailing list and will provide valuable input and feedback.</summary>
+   </entry>
+
+   <entry>
+      <title>A new birth</title>
+      <link href="http://expath.org/"/>
+      <link href="http://youtube.com/watch?v=NcHdF1eHhgc"/>
+      <id>urn:uuid:c82cee90-d49f-11de-8a39-0800200c9a66</id>
+      <updated>2009-03-29T00:00:00+01:00</updated>
+      <summary>The website has just been launched. Hello, world!</summary>
+   </entry>
+
+</feed>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webpage menu="main">
+   <title>EXPath - Resources</title>
+   <section>
+      <title>Resources</title>
+      <divider/>
+      <primary>
+         <title>EXPath resources</title>
+         <para>The presentation about EXPath Webapp and Servlex, given by Florent Georges at <link
+            href="http://xmlprague.cz/2011/">XML Prague 2011</link>. CXAN was taken as a
+            case-study.</para>
+         <slideshare doc="fgeorges-servlex-130107035847-phpapp02"/>
+         <para>An article about <link href="http://ibm.com/developerworks/library/x-expath/">Working
+            with web services using the EXPath HTTP client -- HTTP testing with EXPath</link>, by
+            Jim Fuller on IBM's developerWorks.</para>
+         <para>The Packaging System presentation given by Florent Georges at Balisage 2010: <link
+               href="http://www.balisage.net/Proceedings/vol5/html/Georges01/BalisageVol5-Georges01.html"
+               >the proceedings</link>. The conference website also hosts the PDF presentation
+            and the examples, see the <link
+               href="http://www.balisage.net/Proceedings/vol5/author-pkg/Georges01/BalisageVol5-Georges01.html"
+               >materials</link> page.</para>
+         <slideshare doc="fgeorges-expath-101002163358-phpapp02"/>
+         <para>The presentation given by Florent Georges at <link href="http://xmlprague.cz/2010/">XML
+            Prague 2010</link>, introducing the project as a whole, the Packaging System and the
+            Webapp Framework (you can find the <link href="rsrc/fgeorges-prague-2010-examples.zip">examples
+            here</link>):</para>
+         <slideshare doc="fgeorges-expath-100318160007-phpapp01"/>
+         <para>The introduction to EXPath presented by Florent Georges at Balisage 2009: <link
+               href="http://www.balisage.net/Proceedings/vol3/html/Georges01/BalisageVol3-Georges01.html"
+               >the proceedings</link>. The conference website also hosts the PDF presentation
+            and the examples, see the <link
+               href="http://www.balisage.net/Proceedings/vol3/author-pkg/Georges01/BalisageVol3-Georges01.html"
+               >materials</link> page.</para>
+         <slideshare doc="balisage-expath-100121190739-phpapp02"/>
+         <para>A video showing the ZIP module in <link href="http://www.qutoric.com/coherentweb/"
+               >CoherentWeb</link>:</para>
+         <youtube video="CllCpI9Od6Y"/>
+      </primary>
+      <primary>
+         <title>Processors (and their extensions)</title>
+         <para>See also the following <link href="http://expath.org/wiki/Engines">wiki page</link>
+            for more informations.</para>
+         <list>
+            <item><link href="http://www.exslt.org/">EXSLT</link> project</item>
+            <item><link href="http://www.exquery.org/">EXQuery</link> project</item>
+            <item><link href="http://www.exproc.org/">EXProc</link> project</item>
+            <item><link href="http://basex.org/">BaseX</link> XML database, and their various
+               extensions (look for pages named "* Functions" in the <link
+                  href="http://docs.basex.org/wiki/Category:XQuery">XQuery category</link> on their
+               wiki).</item>
+            <item><link href="http://www.exist-db.org/">eXist</link> XML database, and its <link
+                  href="http://demo.exist-db.org/exist/xquery/functions.xql">extension
+                  modules</link>. Please note that this page documents only the extension modules
+               activated on the build of eXist that runs the website, for instance the HTTP Client
+               module is not activated by default, so it is not present in this online
+               documentation. To have all the modules, you have to install eXist and enable all
+               modules.</item>
+            <item><link href="http://www.marklogic.com/">MarkLogic</link> XML database, and its huge
+                  <link href="http://xqzone.marklogic.com/pubs/4.0/apidocs/All.html">extension
+                  module set</link>.</item>
+            <item><link href="http://mxquery.org/">MXQuery</link> XQuery processor. It supports
+               various <link href="http://mxquery.org/?page_id=107">extensions</link>, most of them
+               are compatible with (have the exact same interface than) Zorba's extensions; that's
+               worth noting.</item>
+            <item><link href="http://www.xmlmind.com/qizx/">Qizx</link> XML database. The <link
+                  href="http://www.xmlmind.com/qizx/_distrib/docs/manual/reference.html">reference
+                  part</link> of its manual is almost all about extensions.</item>
+            <item><link href="http://www.saxonica.com/">Saxon</link> XSLT &amp; XQuery
+               processor, and its various <link
+                  href="http://saxonica.com/documentation/extensions/intro.html">extensions</link>
+               (functions and others...)</item>
+            <item><link href="http://xqilla.sf.net/">XQilla</link> XQuery processor. See the
+               XQilla's <link href="http://xqilla.sf.net/ExtensionFunctions">extension
+                  functions</link>. It is worth noting it also supports the <link
+                  href="http://snelson.org.uk/~jpcs/higher-order-functions.html">first-class
+                  function objects</link> proposal for XQuery (by John Snelson, the author of
+               XQilla.)</item>
+            <item><link href="http://www.xqsharp.com/">XQSharp</link> XQuery processor for the .NET
+               Framework. See its <link href="http://www.xqsharp.com/xqsharp/functions.htm"
+                  >extension functions</link> (only math functions at the time of writing.)</item>
+            <item><link href="http://www.zorba-xquery.com/">Zorba</link> XQuery processor. A big
+               part of the <link href="http://www.zorba-xquery.com/doc/zorba-0.9.5/zorba/html/">user
+                  manual</link> is about various extensions.</item>
+         </list>
+      </primary>
+   </section>
+</webpage>
