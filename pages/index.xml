@@ -17,9 +17,9 @@
          implementations to as many processors as possible, via extensibility mechanisms from the
          XPath 2.0 Recommendation itself.</para>
       <para>Other projects exist to define extensions for XPath-based languages or languages using
-         XPath, as the famous <link href="http://www.exslt.org/">EXSLT</link>, and the more recent
-            <link href="http://www.exquery.org/">EXQuery</link> and <link
-            href="http://www.exproc.org/">EXProc</link> projects. We think that those projects are
+         XPath, as the famous <link href="http://exslt.org/">EXSLT</link>, and the more recent
+            <link href="http://exquery.org/">EXQuery</link> and <link
+            href="http://exproc.org/">EXProc</link> projects. We think that those projects are
          really useful and fill a gap in the XML core technologies landscape. Nevertheless, working
          at the XPath level allows common solutions when there is no sense in reinventing the wheel
          over and over again. This is just following the brilliant idea of the W3C's XSLT and XQuery
@@ -33,7 +33,7 @@
          several function libraries. Each library focuses on a specific area. For instance
          performing HTTP requests, using <link href="http://en.wikipedia.org/wiki/WebDAV"
             >WebDAV</link>, reading and writing ZIP files (like <link
-            href="http://www.openebook.org/">EPUB</link> eBooks, <link
+            href="http://openebook.org/">EPUB</link> eBooks, <link
             href="http://en.wikipedia.org/wiki/Office_Open_XML">Open XML</link> and <link
             href="http://en.wikipedia.org/wiki/OpenDocument">OpenDocument</link> files,) parsing and
          serializing XML and HTML documents, executing XSLT transforms and XQuery queries,
