@@ -26,6 +26,32 @@
    </entry>
 
    <entry>
+      <title>HTTP Client for Java and Saxon updated</title>
+      <link href="http://expath.org/spec/http-client"/>
+      <link href="http://expath.org/modules/http-client/"/>
+      <link href="http://expath.org/files/http-client"/>
+      <link href="http://expath.org/file/http-client/expath-http-client-java-0.4.0.zip"/>
+      <link href="http://expath.org/file/http-client/expath-http-client-saxon-0.11.0.zip"/>
+      <id>urn:uuid:811bebc1-7aca-11e3-981f-0800200c9a66</id>
+      <updated>2013-01-11T00:00:00+01:00</updated>
+      <summary>An update of the HTTP Client implementation for Java and for Saxon have
+         just been released, resp. versions 0.4.0 and 0.11.0.</summary>
+   </entry>
+
+   <entry>
+      <title>ZIP Facility for Java and Saxon updated</title>
+      <link href="http://expath.org/spec/http-client"/>
+      <link href="http://expath.org/modules/http-client/"/>
+      <link href="http://expath.org/files/zip"/>
+      <link href="http://expath.org/file/zip/expath-zip-java-0.2.0.zip"/>
+      <link href="http://expath.org/file/zip/expath-zip-saxon-0.7.0.zip"/>
+      <id>urn:uuid:4ed15150-7aca-11e3-981f-0800200c9a66</id>
+      <updated>2013-01-11T00:00:00+01:00</updated>
+      <summary>An update of the ZIP implementation for Java and for Saxon have just
+         been released, resp. versions 0.2.0 and 0.7.0.</summary>
+   </entry>
+
+   <entry>
       <title>Packaging update</title>
       <link href="http://expath.org/spec/pkg"/>
       <link href="http://expath.org/modules/pkg/"/>
