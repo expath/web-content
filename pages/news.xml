@@ -8,7 +8,7 @@
    </section>
    <primary>
       <title>HTTP Client for Java and Saxon updated</title>
-      <details>January 11, 2013</details>
+      <details>January 11, 2014</details>
       <para>An update of the HTTP Client implementation
          <link href="file/http-client/expath-http-client-java-0.4.0.zip">for Java</link> and
          <link href="file/http-client/expath-http-client-saxon-0.11.0.zip">for Saxon</link> have
@@ -16,10 +16,28 @@
    </primary>
    <primary>
       <title>ZIP Facility for Java and Saxon updated</title>
-      <details>January 11, 2013</details>
+      <details>January 11, 2014</details>
       <para>An update of the ZIP implementation <link href="file/zip/expath-zip-java-0.2.0.zip">for
          Java</link> and <link href="file/zip/expath-zip-saxon-0.7.0.zip">for Saxon</link> have just
          been released, resp. versions 0.2.0 and 0.7.0.</para>
+   </primary>
+   <primary>
+      <title>Binary Module has reached 1.0</title>
+      <details>December 3, 2013</details>
+      <para>The Binary Module has reached the <link href="http://expath.org/spec/binary/1.0">version
+            1.0</link> status. Thanks to the entire EXPath community, and thanks in particular to
+         John Lumley, <link href="http://twitter.com/jirkakosek">Jirka Kosek</link> and <link
+            href="http://twitter.com/christiangruen">Christian Grün</link>, the Binary Module has
+         reached the stable status of version 1.0 in less than one year. Thank you all!</para>
+   </primary>
+   <primary>
+      <title>File Module Proposed draft</title>
+      <details>December 3, 2013</details>
+      <para>A <link href="http://expath.org/spec/file/20131203">new draft</link> of the File Module
+         has been released. This is a Proposed Module, so hopefully the 1.0 version is round the
+         corner. It incorporates feedback received since the last draft, and contains a new <link
+            href="https://github.com/expath/expath-cg/tree/master/tests/qt3/file">test
+         suite</link>.</para>
    </primary>
    <primary>
       <title>EXPath is a W3C Group</title>
