@@ -22,6 +22,15 @@
          been released, resp. versions 0.2.0 and 0.7.0.</para>
    </primary>
    <primary>
+      <title>EXPath is a W3C Group</title>
+      <details>April 24, 2012</details>
+      <para>EXPath has been accepted as a new Community Group (or CG in short) at W3C!  The
+         <link href="http://w3.org/community/expath/">page of the group</link> contains more
+         information. There is a new mailing list for the standardization effort that takes place
+         in the group, and some specifications have been ported to the CG (where they are called
+         "reports", following the W3C terminology). Everyone is welcome to join!</para>
+   </primary>
+   <primary>
       <title>HTTP Client update</title>
       <details>January 9, 2010</details>
       <para>An update of the <link href="spec/http-client">HTTP Client specification</link>
