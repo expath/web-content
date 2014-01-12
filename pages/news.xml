@@ -7,6 +7,30 @@
       <para>There is an <link href="atom.xml">Atom feed</link>.</para>
    </section>
    <primary>
+      <title>HTTP Client for Java and Saxon updated</title>
+      <details>January 11, 2013</details>
+      <para>An update of the HTTP Client implementation
+         <link href="file/http-client/expath-http-client-java-0.4.0.zip">for Java</link> and
+         <link href="file/http-client/expath-http-client-saxon-0.11.0.zip">for Saxon</link> have
+         just been released, resp. versions 0.4.0 and 0.11.0.</para>
+   </primary>
+   <primary>
+      <title>ZIP Facility for Java and Saxon updated</title>
+      <details>January 11, 2013</details>
+      <para>An update of the ZIP implementation <link href="file/zip/expath-zip-java-0.2.0.zip">for
+         Java</link> and <link href="file/zip/expath-zip-saxon-0.7.0.zip">for Saxon</link> have just
+         been released, resp. versions 0.2.0 and 0.7.0.</para>
+   </primary>
+   <primary>
+      <title>EXPath is a W3C Group</title>
+      <details>April 24, 2012</details>
+      <para>EXPath has been accepted as a new Community Group (or CG in short) at W3C!  The
+         <link href="http://w3.org/community/expath/">page of the group</link> contains more
+         information. There is a new mailing list for the standardization effort that takes place
+         in the group, and some specifications have been ported to the CG (where they are called
+         "reports", following the W3C terminology). Everyone is welcome to join!</para>
+   </primary>
+   <primary>
       <title>HTTP Client update</title>
       <details>January 9, 2010</details>
       <para>An update of the <link href="spec/http-client">HTTP Client specification</link>
