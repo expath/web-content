@@ -4,11 +4,33 @@
    <title>EXPath - Mailing lists</title>
    <section>
       <title>Mailing lists</title>
-      <para> Communication is handled by <link href="http://groups.google.com/group/expath">Google
+      <para>Communication is handled by <link href="http://groups.google.com/group/expath">Google
             Groups</link> tools. It offers a regular mailing list as well as archive management.
-      </para>
+         Since EXPath has been accepted as a <link href="http://w3.org/community/expath/">W3C
+            group</link>, the main mailing list for everything related to the specifications is the
+         CG mailing list, whilst everything else (including specific implementations, tools, etc.)
+         is discussed on the general list.</para>
    </section>
    <divider/>
+   <primary>
+      <title>W3C list</title>
+      <para>The list for all discussions about EXPath specifications. You can visit the <link
+            href="http://lists.w3.org/Archives/Public/public-expath/">list page</link> or send an
+         email to <link href="mailto:public-expath-request@w3.org?subject=subscribe"
+            >public-expath-request@w3.org"</link> with the subject <code>subscribe</code> in orders
+         to subscribe. Post emails to <link href="mailto:public-expath@w3.org"
+            >public-expath@w3.org</link>. All conversations are public, and the private mailing
+         list, created for each and every W3C group, is not used.</para>
+   </primary>
+   <primary>
+      <title>General list</title>
+      <para>The list for all discussions about EXPath, except the specifications themselves (for
+         those, please use the W3C list instead). You can visit the list <link
+            href="http://groups.google.com/group/expath">Google Groups page</link> or send an email
+         to <link href="mailto:expath+subscribe@googlegroups.com"
+            >expath+subscribe@googlegroups.com</link> to subscribe. Post emails to <link
+            href="mailto:expath@googlegroups.com">expath@googlegroups.com</link>.</para>
+   </primary>
    <primary>
       <title>Announces list</title>
       <para>This list is very low traffic and only the team can post messages to this list. You can
@@ -16,13 +38,5 @@
             page</link> or send an email to <link
             href="mailto:expath-announces+subscribe@googlegroups.com"
             >expath-announces+subscribe@googlegroups.com</link> to subscribe.</para>
-   </primary>
-   <primary>
-      <title>General list</title>
-      <para>The list for all discussions about EXPath. You can visit the list <link
-            href="http://groups.google.com/group/expath">Google Groups page</link> or send an email
-         to <link href="mailto:expath+subscribe@googlegroups.com"
-            >expath+subscribe@googlegroups.com</link> to subscribe. Post to <link
-            href="mailto:expath@googlegroups.com">expath@googlegroups.com</link>.</para>
    </primary>
 </webpage>
