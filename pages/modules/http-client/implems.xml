@@ -26,9 +26,7 @@
          is only partial, but you can find it in the <link
             href="http://code.google.com/p/expath-http-client/source/browse/trunk/marklogic/http-client.xq"
             >subversion repository</link>.</para>
-      <para><link href="http://myxsl.net">myxsl.net</link>, a framework to build website with XML
-         technologies, provides with an implementation of the HTTP Client for .NET.  Several
-         XSLT/XQuery processors are supported, including .NET and Saxon.  See this
-            <link href="http://myxsl.net/expath/http-client/">page</link>.</para>
+      <para><link href="http://maxtoroq.github.io/myxsl/">myxsl</link>, a framework to build website with XML
+         technologies, provides with an implementation of the HTTP Client for .NET (System.Xml.Xsl) and Saxon.</para>
    </section>
 </webpage>
