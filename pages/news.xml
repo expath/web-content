@@ -6,6 +6,68 @@
       <title>News</title>
       <para>There is an <link href="atom.xml">Atom feed</link>.</para>
    </section>
+   <!--primary>
+      <title>...</title>
+      <details>Month 00, 2016</details>
+      <para>foo... <link href="...">...</link> bar...</para>
+   </primary-->
+   <primary>
+      <title>Servlex version 0.10.0</title>
+      <details>December 20, 2015</details>
+      <para>New release of Servlex, version 0.10.0.  The most important changes are:</para>
+      <list>
+         <item>support for XQuery and XSLT 3.0</item>
+         <item>a proper package repo-aware class loader, to use extensions written
+            for Saxon with no restriction in webapps</item>
+         <item>upgrade of all components (Saxon, Calabash, HTTP Client, etc.)</item>
+      </list>
+      <para>For a full change log and to download the installer, got to the Servlex
+         <link href="http://servlex.net/">website</link>, resp. on the
+         <link href="http://servlex.net/news">News</link> and
+         <link href="http://servlex.net/download">Download</link> sections.</para>
+   </primary>
+   <primary>
+      <title>HTTP Client for Java and Saxon updated</title>
+      <details>December 20, 2015</details>
+      <para>An update of the HTTP Client implementation
+         <link href="file/http-client/expath-http-client-java-0.5.0.zip">for Java</link> and
+         <link href="file/http-client/expath-http-client-saxon-0.12.0.zip">for Saxon</link> have
+         just been released, resp. versions 0.5.0 and 0.12.0.</para>
+      <para>The Saxon implementation is also available on CXAN at
+         <link href="http://cxan.org/pkg/expath/http-client-saxon">expath/http-client-saxon</link>.</para>
+   </primary>
+   <primary>
+      <title>ZIP Facility for Java and Saxon updated</title>
+      <details>December 20, 2015</details>
+      <para>An update of the ZIP implementation
+         <link href="file/zip/expath-zip-java-0.3.0.zip">for Java</link> and
+         <link href="file/zip/expath-zip-saxon-0.8.0.zip">for Saxon</link> have
+         just been released, resp. versions 0.3.0 and 0.8.0.</para>
+      <para>The Saxon implementation is also available on CXAN at
+         <link href="http://cxan.org/pkg/expath/zip-saxon">expath/zip-saxon</link>.</para>
+   </primary>
+   <primary>
+      <title>Packaging and repository updated</title>
+      <details>December 20, 2015</details>
+      <para>An update of the Saxon and Calabash implementation of the packaging system,
+         as well as the generic implementation and repository manager for Java.
+         The archive and the automatic installer are available in the
+         <link href="http://expath.org/files">download area</link>.</para>
+   </primary>
+   <primary>
+      <title>New Tools for Java and Saxon</title>
+      <details>December 20, 2015</details>
+      <para>Two new sets of Java classes have just been released: the EXPath Tools for Java
+         and for Saxon.</para>
+      <para>Tools for Java eases development of portable extensions for XPath (and XQuery
+         and XSLT) written in Java.  Tools for Saxon eases development of portable extensions
+         for XPath (and XQuery and XSLT) for Saxon.  More info and downloads on:</para>
+      <list>
+         <item><link href="https://github.com/expath/tools-java">https://github.com/expath/tools-java</link></item>
+         <item><link href="https://github.com/expath/tools-saxon">https://github.com/expath/tools-saxon</link></item>
+         <item><link href="http://expath.org/files">http://expath.org/files</link></item>
+      </list>
+   </primary>
    <primary>
       <title>HTTP Client for Java and Saxon updated</title>
       <details>January 11, 2014</details>
